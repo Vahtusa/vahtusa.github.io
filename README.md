@@ -5,9 +5,6 @@
   <meta name="description" content="Vahtusa – a small silver direction in a loud world. A simple mantra practice: sit, think the word, drift, return.">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
   <style>
-  body > h1 {
-  display: none !important;
-}
     :root {
       --bg: #050712;
       --star: #f0ece0;
