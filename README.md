@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -109,12 +108,12 @@
       </a>
 
       <!-- Put your real IG URL here -->
-      <a class="btn" href="https://instagram.com/YOUR_VAHTUSA_HANDLE" target="_blank" rel="noopener noreferrer">
+      <a class="btn" href="https://instagram.com/vahtusa" target="_blank" rel="noopener noreferrer">
         Follow on Instagram
       </a>
 
       <!-- Put whatever email you want to use here -->
-      <a class="btn" href="mailto:you@yourdomain.com">
+      <a class="btn" href="mailto:hello@vahtusa.com">
         Quiet updates by email
       </a>
     </div>
