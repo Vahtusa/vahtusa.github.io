@@ -1,7 +1,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Vahtusa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Vahtusa – a small silver direction in a loud world. A simple mantra practice: sit, think the word, drift, return.">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
