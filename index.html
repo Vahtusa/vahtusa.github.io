@@ -88,6 +88,57 @@
       color: var(--muted);
       opacity: 0.9;
     }
+    .email-row {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.email-label {
+  white-space: nowrap;
+}
+
+.email-row form {
+  display: flex;
+  gap: 6px;
+}
+
+.email-input {
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(240,236,224,0.25);
+  background: transparent;
+  color: var(--text);
+  font-size: 0.85rem;
+  min-width: 190px;
+}
+
+.email-input::placeholder {
+  color: rgba(240,236,224,0.45);
+}
+
+.email-btn {
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(240,236,224,0.6);
+  background: rgba(240,236,224,0.06);
+  color: var(--text);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.email-btn:hover {
+  background: rgba(240,236,224,0.12);
+  border-color: rgba(240,236,224,1);
+  transform: translateY(-1px);
+}
   </style>
 </head>
 <body>
@@ -113,15 +164,26 @@
       </a>
 
       <!-- Put whatever email you want to use here -->
-<form
-  action="https://buttondown.com/api/emails/embed-subscribe/vahtusa"
-  method="post"
-  class="embeddable-buttondown-form"
->
-  <label for="bd-email">Quiet email updates</label>
-  <input type="email" name="email" id="bd-email" />
-  <input type="submit" value="Subscribe" />
-</form>
+
+            <div class="email-row">
+              <span class="email-label">Quiet email updates</span>
+              <form
+                action="https://buttondown.email/api/emails/embed-subscribe/vahtusa"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/vahtusa', 'popupwindow')"
+              >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                  class="email-input"
+                >
+                <button type="submit" class="email-btn">Subscribe</button>
+              </form>
+            </div>
+      
     </div>
 
     <p class="note">
